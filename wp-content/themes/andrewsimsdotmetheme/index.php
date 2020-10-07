@@ -21,7 +21,7 @@
                                                         echo "</ul>";
                                                 }
                                         ?>
-                                        <div class="post-body"><?php the_excerpt(); ?></div>
+                                        <div class="post-body"><?php the_content(); ?></div>
                                         <a class="body-link--post" href="<?php the_permalink(); ?>">Keep Reading &rarr;</a>
                                 </div>
                 
