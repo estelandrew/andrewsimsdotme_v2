@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<?php echo $_SERVER['SERVER_NAME']; ?>
 <div class="flex-container welcome-flex-container">
         <div class="welcome-flex-item-1">
                 <picture>

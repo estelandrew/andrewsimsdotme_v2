@@ -20,11 +20,18 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 
-//update this later for local environment
-define( 'DB_NAME', 'dbgdgu3h83v5af' );
-define( 'DB_USER', 'uc8vmvbpscwgw' );
-define( 'DB_PASSWORD', '@Boxcar01!' );
-define( 'DB_HOST', '127.0.0.1' );
+//update this later for local
+if (strstr($_SERVER['SERVER_NAME'], 'andrewsims.me')) {
+	define( 'DB_NAME', 'dbgdgu3h83v5af' );
+	define( 'DB_USER', 'uc8vmvbpscwgw' );
+	define( 'DB_PASSWORD', '@Boxcar01!' );
+	define( 'DB_HOST', '127.0.0.1' );	
+} else {
+	define( 'DB_NAME', 'local' );
+	define( 'DB_USER', 'root' );
+	define( 'DB_PASSWORD', 'root' );
+	define( 'DB_HOST', 'localhost' );
+}
 
 
 /** Database Charset to use in creating database tables. */
