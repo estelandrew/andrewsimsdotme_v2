@@ -11,7 +11,7 @@
         </div>
 </div>
 
-<h2 class="body-heading"><span class="heading-border">Skills include...<span></h2>
+<h2 class="body-heading"><span class="heading-border">Skills include...</span></h2>
 <h3 class="item-heading">Front-End Development</h3>
 <p class="skills-desc">I build out visual components of websites and applications as well as integrate them with a database or Content Management System (CMS). Using HTML, CSS, JavaScript, and other modern or popular languages, I can create fast, interactive web applications. I have experience working with popular front-end libraries and technologies, such as React, SASS, Bootstrap, SAPUI5, and jQuery.</p>
 <h3 class="item-heading">Back-End Development</h3>
@@ -35,7 +35,7 @@
                                             <div class="project-body"><?php the_content(); ?></div>
                                             <div class="btn-container">
                                                     <a target="_blank" href="<?php the_field('demo_url'); ?>"><span class="btn">Demo &rarr;</span></a>
-                                                    <a target="_blank" href="<?php the_field('repository_url'); ?>"><span class="btn">Github &rarr;</i></span></a>
+                                                    <a target="_blank" href="<?php the_field('repository_url'); ?>"><span class="btn">Github &rarr;</span></a>
                                             </div>
                                     </div>
                                     <div class="project-flex-item-2">

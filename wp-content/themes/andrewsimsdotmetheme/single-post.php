@@ -20,7 +20,7 @@
                                         echo "</ul>";
                                 }
                         ?>
-                        <div class="post-body"><?php the_excerpt(); ?></div>
+                        <div class="post-body"><?php the_content(); ?></div>
                 </div>
 
 

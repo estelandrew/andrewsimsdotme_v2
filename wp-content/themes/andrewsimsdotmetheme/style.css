@@ -133,8 +133,8 @@ a.body-link.large-link {
   font-size: 1.25rem;
   font-weight: 700;
   font-family: var(--font-mono);
-  color: var(--color-orange);
-  border: 1px solid var(--color-orange);
+  color: #000;
+  border: 1px solid #000;
   border-radius: 5px;
   padding: 0 2rem 0 2rem;
   margin-top: 1rem;
@@ -143,6 +143,7 @@ a.body-link.large-link {
 a.body-link.large-link:hover {
   background-color: var(--color-orange);
   color: #fff;
+  border-color: var(--color-orange);
 }
 
 .btn:hover {
@@ -445,7 +446,7 @@ h2.body-heading {
   font-size: 2rem;
   font-family: var(--font-mono);
   font-weight: 700;
-  margin: 3rem 0 1rem 0;
+  margin: 5rem 0 2rem 0;
   text-align: left;
   font-style: italic;
 }
@@ -571,6 +572,10 @@ div.post-body {
   padding: 1rem 0 1rem 0;
 }
 
+div.post-body > p {
+  margin-bottom: 1rem;
+}
+
 a.body-link--post {
   color: #fff;
   background-color: var(--color-orange);
@@ -601,7 +606,7 @@ div.contact-form-wrapper {
   text-align: center;
   color: #222;
   padding: 1rem 0 2rem 0;
-  border: 1px solid #999;
+  border: 1px solid #666;
   border-radius: 10px;
 }
 
@@ -627,7 +632,7 @@ div.contact-form-wrapper .body-heading {
 .contact-form-input,
 .contact-form-text-area {
   width: 80%;
-  border: 1px solid #999;
+  border: 1px solid #666;
   padding: 0.5rem;
   border-radius: 5px;
   margin-bottom: 1rem;

@@ -12,7 +12,7 @@
                                             <div class="project-body"><?php the_content(); ?></div>
                                             <div class="btn-container">
                                                     <a target="_blank" href="<?php the_field('demo_url'); ?>"><span class="btn">Demo &rarr;</span></a>
-                                                    <a target="_blank" href="<?php the_field('repository_url'); ?>"><span class="btn">Github &rarr;</i></span></a>
+                                                    <a target="_blank" href="<?php the_field('repository_url'); ?>"><span class="btn">Github &rarr;</span></a>
                                             </div>
                                     </div>
                                     <div class="project-flex-item-2">
