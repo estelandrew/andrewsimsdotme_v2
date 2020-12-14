@@ -305,8 +305,17 @@ nav a:hover {
   nav a {
     display: inline-block;
     background-color: #222;
-    width: 5rem;
+    width: auto;
     height: 3rem;
+    line-height: 6rem;
+    border-bottom: none;
+  }
+  nav a {
+    display: inline-block;
+    background-color: #222;
+    width: auto;
+    height: 6rem;
+    margin-left:  2rem;
     line-height: 6rem;
     border-bottom: none;
   }

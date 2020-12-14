@@ -19,8 +19,9 @@
         </div>
       </div>
       <nav id="nav-container">
+        <a class="nav-link" href="<?php echo site_url('/'); ?>">Home</a>
         <a class="nav-link" href="<?php echo site_url('/projects'); ?>">Projects</a>
-        <a class="nav-link" href="<?php echo site_url('/blog'); ?>">Blog</a>
+        <!--<a class="nav-link" href="<//?php echo site_url('/blog'); ?>">Blog</a>-->
         <a class="nav-link" href="<?php echo site_url('/contact'); ?>">Contact</a>
       </nav>
     </header>
