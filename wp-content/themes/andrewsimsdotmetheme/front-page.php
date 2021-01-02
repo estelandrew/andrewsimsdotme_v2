@@ -49,9 +49,9 @@
 </div>
 <a class="body-link large-link" href="<?php echo site_url('/projects') ?>">View all projects &rarr;</a>
 
-<h2 class="body-heading"><span class="heading-border">Recent Blog Posts...</span></h2>
+<!--<h2 class="body-heading"><span class="heading-border">Recent Blog Posts...</span></h2>
 <div class="posts-wrapper">
-        <?php 
+        </?php 
 
                 $homepageBlogs = new WP_Query(array(
                         'posts_per_page' => 2,
@@ -62,9 +62,9 @@
                         $homepageBlogs->the_post(); ?>
 
                                 <div class="post">
-                                        <a class="post-title-link" href="<?php the_permalink(); ?>"><h3 class="post-title"><?php the_title(); ?></h3></a>
-                                        <span class="post-date">Posted on <?php echo get_the_date(); ?></span>
-                                        <?php 
+                                        <a class="post-title-link" href="</?php the_permalink(); ?>"><h3 class="post-title"></?php the_title(); ?></h3></a>
+                                        <span class="post-date">Posted on </?php echo get_the_date(); ?></span>
+                                        </?php 
                                                 $categories = get_the_category();
 
                                                 if ( ! empty( $categories ) ) {
@@ -75,15 +75,15 @@
                                                         echo "</ul>";
                                                 }
                                         ?>
-                                        <div class="post-body"><?php the_excerpt(); ?></div>
-                                        <a class="body-link--post" href="<?php the_permalink(); ?>">Keep Reading &rarr;</a>
+                                        <div class="post-body"></?php the_excerpt(); ?></div>
+                                        <a class="body-link--post" href="</?php the_permalink(); ?>">Keep Reading &rarr;</a>
                                 </div>
 
-                <?php }
+                </?php }
 
         ?>
 </div>
-<a class="body-link large-link" href="<?php echo site_url('/blog') ?>">View Blog &rarr;</a>
+<a class="body-link large-link" href="</?php echo site_url('/blog') ?>">View Blog &rarr;</a>-->
 
 <div class="contact-form-wrapper contact-form-wrapper--front-page">
 <h2 class="body-heading">Say Hello</h2>

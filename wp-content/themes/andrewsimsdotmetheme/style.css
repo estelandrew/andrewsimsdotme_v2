@@ -267,6 +267,15 @@ nav.collapsed {
   }
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
 nav a {
   display: block;
   background-color: #444;
@@ -291,6 +300,7 @@ nav a:hover {
     right: 5%;
     z-index: 3;
     font-size: 1.25rem;
+    height: 6rem;
   }
   nav.expanded {
     top: 0;
@@ -302,14 +312,19 @@ nav a:hover {
     right: 10%;
     animation-name: none;
   }
-  nav a {
-    display: inline-block;
-    background-color: #222;
-    width: auto;
-    height: 3rem;
-    line-height: 6rem;
-    border-bottom: none;
+
+  nav ul {
+    margin: 0;
   }
+  
+  nav li {
+    display: inline-block;
+  }
+
+  nav li.current_page_item {
+    border-bottom: 2px solid var(--color-orange);
+  }
+
   nav a {
     display: inline-block;
     background-color: #222;
