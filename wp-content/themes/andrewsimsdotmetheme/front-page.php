@@ -17,7 +17,7 @@
 <h3 class="item-heading">Back-End Development</h3>
 <p class="skills-desc">I have worked with backend technologies including SQL, Node, Express, PHP, and ABAP (from SAP). I have professional experience writing RESTful API’s to create and edit database records.</p>
 <h3 class="item-heading">UI/UX Design</h3>
-<p class="skills-desc">User Interface (UI) and User Experience (UX) design involve planning and iterating a site's structure and layout, which is a necessary first step in building any web site or application. I have experience using design and editing tools such as Adobe Photshop and Adobe XD for this process.</p>
+<p class="skills-desc">I am passionate about creating excellent user experiences. I am knowledgeable about web accessibility best practices, and I have a strong foundational understanding of visual design theory. I have experience with design and prototyping tools including Adobe Photoshop, Adobe XD, and Figma.</p>
 
 <h2 class="body-heading"><span class="heading-border">Recent Projects...</span></h2>
 <div class="projects-wrapper">
